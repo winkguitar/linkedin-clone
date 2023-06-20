@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    /* justify-content: space-between; */
+    flex-direction: row;
+}
+
+.nav-item {
+    margin: 1rem;
+    display: inline-flex;
+}
+
+.logo-search {
+    margin: 10px 0;
+}
