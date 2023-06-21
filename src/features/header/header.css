@@ -1,13 +1,20 @@
 .header {
     display: flex;
     justify-content: space-evenly;
+    background-color: aquamarine;
+    width: 100vw;
+    position: sticky;
 }
 
 .nav {
     display: flex;
-    list-style: none;
+    position: relative;
     /* justify-content: space-between; */
-    flex-direction: row;
+}
+
+.nav-links {
+    position: relative;
+    right: -20vw;
 }
 
 .nav-item {
@@ -16,5 +23,7 @@
 }
 
 .logo-search {
-    margin: 10px 0;
+    position: fixed;
+    left: 20vw;
+    top: 1.2vh;
 }

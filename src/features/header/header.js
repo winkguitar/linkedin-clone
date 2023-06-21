@@ -6,8 +6,9 @@ function Header() {
     <div className="header">
         <div className={"logo-search"}>
             <form>
-                <label for="search">Search:</label>
+                <label htmlFor="search">Search:</label>
                 <input type="search"></input>
+                <button type="submit">Search</button>
             </form>
         </div>
         <nav className={"nav"}>
@@ -15,11 +16,11 @@ function Header() {
                 <li className="nav-item">Home</li>
                 <li className="nav-item">Learn</li>
                 <li className="nav-item">Jobs</li>    
-                <li className="nav-item">Contact</li>
+                <li className="nav-item">Messages</li>
             </ul>
         </nav>
     </div>
   )
 }
 
-export default Header
+export default Header;

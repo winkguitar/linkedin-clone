@@ -1,3 +1,9 @@
-.App {
-    color: turquoise;
+
+.body {
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    margin: 0 15vw;
+    grid-gap: 10px;
+    background-color: lightgray;
 }
+
